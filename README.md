@@ -28,7 +28,6 @@ Hệ thống Quản lý Cửa hàng Điện thoại được xây dựng bằng 
 - .NET Framework (theo phiên bản của project)
 - SQL Server 2019 hoặc SQL Server Express
 
-
 - SQL Server Management Studio (khuyến nghị)
 
 ---
