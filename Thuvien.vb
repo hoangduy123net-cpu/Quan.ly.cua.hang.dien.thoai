@@ -3,9 +3,10 @@
 Module DatabaseModule
 
    Public ReadOnly connStr As String =
-"Data Source=(LocalDB)\MSSQLLocalDB;" &
-"AttachDbFilename=|DataDirectory|\quanlycuahangdienthoai.mdf;" &
-"Integrated Security=True"
+"Data Source=DESKTOP-ABC123\SQLEXPRESS;
+Initial Catalog=quanlycuahangdienthoai;
+Integrated Security=True;
+TrustServerCertificate=True;"
 
     Public conn As New SqlConnection(connStr)
 
